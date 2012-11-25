@@ -13,7 +13,16 @@ function callBack(e){
 ```
 
 ### What is this code doing?
-Plain and simple, we're wiring up the body to the call the `callBack` method when _any_ attribute changes in the document. Just like I told you, simple right?
+Plain and simple, we're wiring up the body to the call the `callBack` method when _any_ attribute changes in the document. Just like I told you, simple right? But we don't have to just use `'body'` as the selector, we can use any CSS selector!
+
+```javascript
+wireman.wire('div.complicatedclass#reallycomplicated', wireman.watch.attribute, callBack);
+
+function callBack(e){
+    console.log(e);
+}
+```
+Awesome!
 
 ### Help me, I'm drowning in events!
 Too many calls to your callback methods? Sorry man, I'll help you out.
