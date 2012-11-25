@@ -1,5 +1,5 @@
 ## What problem does this solve?
-The purpose of __wireman.js__, aside from curiosity, was to create a tool that sped-up hooking events to large amounts of DOM elements with few lines of code. This module does just that, it allows for listening for attribute changes, html changes (both adding and modification), and a handful other DOMTree events.
+The purpose of __wireman.js__, aside from curiosity, was to create a tool that sped-up hooking events to large amounts of DOM elements with few lines of code. This module does just that, it allows for listening to attribute changes, html changes (both adding and modification), and a handful other DOMTree events.
 
 ## Okay, sounds pretty cool, how do I use it?
 It's super simple!
